@@ -1,0 +1,14 @@
+<h1>Lista de productos en tiempo real</h1>
+
+<div id='products-container' style='margin-bottom: 3rem;'></div>
+
+<input type='text' name='title' id='title' placeholder='Ingrese el nombre del producto' />
+<br />
+<textarea name='description' id='description' cols='30' rows='10' placeholder='Descripción del producto'></textarea>
+<br />
+<input type='text' name='price' id='price' placeholder='Precio' />
+<br />
+<button onclick='addProduct()'>Agregar</button>
+
+<script src='/socket.io/socket.io.js'></script>
+<script src='/js/index.js'></script>
